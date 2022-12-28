@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from './components/Nav';
 import Header from './layouts/Header';
-import Carrousel from './components/Carrousel';
+import Carousel from './components/Carousel/Carousel';
 
 function App() {
   
@@ -13,16 +13,11 @@ function App() {
     
   <main id="main">
         
-        <Carrousel />
-        <br/>
+        <Carousel />
+
     
       
-        <div >
-          <span className="dot" onclick="currentSlide(1)"></span>
-          <span className="dot" onclick="currentSlide(2)"></span>
-          <span className="dot" onclick="currentSlide(3)"></span>
-        </div> 
-    
+     
   </main>
   <footer>
     <div className="section-footer">

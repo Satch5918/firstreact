@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
         <div className="section">
-      <span span>
+      <span >
         Anunciamos nuestra próxima ronda de financiación. <a>Leer más →</a>
       </span>
       <h1>Tu tienda de comics favorita</h1>
