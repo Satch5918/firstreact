@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px 0;
 
 }
 
@@ -16,8 +17,8 @@
 
 .carousel-img {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 400px;
+    object-fit: contain;
 }
 
 .carousel-text {
@@ -43,12 +44,11 @@
     /* Next & previous buttons */
     .prev, .next {
       cursor: pointer;
-      position: absolute;
-      top: 50%;
+           top: 50%;
       width: auto;
       margin-top: -22px;
       padding: 16px;
-      color: white;
+      color: rgb(0, 0, 0);
       font-weight: bold;
       font-size: 18px;
       transition: 0.6s ease;
@@ -66,5 +66,6 @@
     
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
+      color: rgba(255, 255, 255, 0.461);
       background-color: rgba(0,0,0,0.8);
     }

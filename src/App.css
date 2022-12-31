@@ -1,7 +1,22 @@
 .App {
   text-align: center;
 }
+.liA{
+  display: flex;
+  gap: 20px;
+}
+.buton{
+  border: 1px solid rgb(0, 0, 0);
+  padding:.6rem .8rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  font-size: small;
+  color: #000000;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -205,6 +220,7 @@ footer{
   padding: 0 2rem;
   justify-content: space-between;
   gap: 5rem;
+  background-color: rgba(34, 34, 34, 0.829);
 }
 footer p{
   color: #999;
@@ -231,5 +247,5 @@ footer p{
   gap: 1rem;
 }
 .pages a, .pages h3 {
-  color: #222;
+  color: rgb(255, 255, 255);
 }

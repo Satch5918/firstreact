@@ -7,7 +7,7 @@ export default function Carousel() {
     const [id, setId] = useState(0)
     const [mangas, setMangas] = useState([])
 
-    const traerData = async () => {
+ /*    const traerData = async () => {
         try {
             const res = await fetch('../../../public/manga.json')
             const data = await res.json()
@@ -19,7 +19,7 @@ export default function Carousel() {
             console.log(err)
         }
     }
-
+ */
     useEffect(() => {
         fetch('./manga.json')
             .then(res => res.json())

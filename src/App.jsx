@@ -1,35 +1,15 @@
 import './App.css';
-import Nav from './components/Nav';
-import Header from './layouts/Header';
-import Carousel from './components/Carousel/Carousel';
+
+import indexRouter from './router';
+import { RouterProvider } from 'react-router-dom';
 
 function App() {
   
   return (
     <div className="App">
-   
-   <Nav/>
-    <Header/>
-    
-  <main id="main">
-        
-        <Carousel />
+            
+        <RouterProvider router={ indexRouter }/>
 
-    
-      
-     
-  </main>
-  <footer>
-    <div className="section-footer">
-      <img className="logo"src="./assets/logo.png" alt="logo"/>
-      <p>Comics</p>
-    </div>
-    <p>©2022 Comic App.</p>
-    <div className="pages">
-      <h3>Pages</h3>
-      <a href="#">Comics</a>
-    </div>
-  </footer>
     </div>
   );
 }
